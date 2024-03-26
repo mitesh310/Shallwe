@@ -1,0 +1,6 @@
+@media only screen and (max-width: 425px){
+    .products .col-4{
+        width: 100%;
+    }
+    
+}

@@ -1,0 +1,69 @@
+.mainbg{
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+}
+
+.btn-buy{
+    border-radius: 50px;
+    padding: 5px 25px;
+    font-size: 20px;
+    background: #414934;
+    color: white;
+  }
+  .btn-all{
+    font-size: 20px;
+    background-color: transparent;
+    border-radius: 50px;
+    border: 1px solid black;
+    padding: 5px 30px;
+  }
+  
+  .btn-buy:hover{
+    border: 1px solid #414934
+  }
+  
+  marquee{
+    color: white;
+    background: #414934;
+    padding: 10px;
+    font-size: 18px;
+    text-align: center;
+  }
+  
+  
+  
+  .indicators {
+    display: flex;
+    justify-content: center;
+    margin-top: -100px;
+  }
+  
+  .indicator {
+    width: 10px;
+    border-radius: 12px;
+  height: 12px;
+    background-color: #9A8572;
+    margin: 0 5px;
+    cursor: pointer;
+    border: none;
+  }
+  
+  .indicator.active {
+    background-color: #050300;
+    width: 40px;
+    height: 12px; 
+  }
+  
+  
+  .video{
+    width: 100%;
+  }
+  
+  .customers{
+    text-align: center;
+    font-size: 36px;
+    background: #414934;
+    color: white;
+    padding: 50px 0;
+  }

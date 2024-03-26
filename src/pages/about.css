@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+.bg {
+    background-image: linear-gradient( #FFF6F3, #ffd9d3);
+    padding: 60px 0;
+    margin: 3rem 0px;
+}
+
+.bg h6 {
+    font-size: 60px;
+    color: #3B0025;
+}
+
+.bg p {
+    font-size: 18px;
+}
+
+.bg a{
+    color: #6D7F8C;
+}
+
+.play .play-list h6.title {
+    background: #FF876C;
+}
+
+.play .play-list h6 {
+    margin: 10px;
+    border: 1px solid #51524C;
+    width: 80%;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+.play h2 {
+    font-size: 60px;
+}
+
+.animated-container {
+    background: #414934;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8rem 10rem;
+}
+.animated-container>div{
+    margin: 0px 1rem;
+}
+
+.anim-logo>img{
+    width: 15vw;
+    height: auto;
+}
+
+
+
+
+
+/* media query start */
+@media only screen and (max-width: 768px){
+    .shall .col-6{
+        width: 50%;
+    }
+    .shall .col-3{
+        width: 25%;
+    }
+    .shall img{
+        width: 150px;
+    }
+    .shall{
+        font-size: 30px;
+        line-height: 200px;
+    }
+    .animated-container {
+       flex-direction: column;
+        padding: 2rem 5rem;
+    }
+    .anim-logo>img{
+        width: 30vw;
+        height: auto;
+    }
+    
+}
+
+
+
+@media only screen and (max-width: 430px){
+    .bg .col-6{
+        width: 100%;
+    }
+    .bg h6 {
+        font-size: 40px;
+    }
+    .bg h6 br {
+        display: none;    
+    }
+    .play h2 {
+        font-size: 40px;
+        margin-top: 20px;
+    }
+    .play .col-4{
+        width: 100%;
+    }
+    .play .play-list{
+        margin-left: 50px;
+    }
+    
+    .shall img{
+        width: 120px;
+    }
+    .products .col-4{
+        width: 100%;
+    }
+    .products .btn{
+        margin-bottom: 15px;
+    }
+}
+@media only screen and (max-width: 320px){
+    .shall img{
+        width: 80px;
+    }
+    .shall{
+        font-size: 25px;
+        line-height: 150px;
+    }
+    .products .col-4{
+        width: 100%;
+    }
+   
+}

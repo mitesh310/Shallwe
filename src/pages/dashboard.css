@@ -1,0 +1,38 @@
+.dashboard{
+   margin: 13px 0px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+.dashboard>h2{
+    margin: 13px 0px;
+}
+table{
+    margin: 0px 13px;
+}
+th{
+    border: 2px solid black;
+}
+.eachrow{
+    background-color: rgb(238, 238, 238);
+}
+.eachrow>td{
+    border: 2px solid black;
+}
+.eachrow>td>p{
+    /* border: 2px solid red; */
+    margin: 0;
+
+}
+.orderitems{
+    border:1px solid black;
+    background: rgb(246, 233, 210);
+}
+.update-btn{
+    margin: 13px 0px;
+    border-radius: 7px;
+    background-color: brown;
+    color: white;
+    border: 2px solid transparent;
+}

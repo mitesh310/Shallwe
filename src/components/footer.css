@@ -1,0 +1,57 @@
+.footer{
+    display: flex;
+    flex-direction: column;
+}
+.details{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 33px;
+}
+.address{
+    width: 50vw;
+    margin: 0px 33px;
+}
+.insta-container{
+    display: flex;
+    margin-top: 5rem;
+    padding: 17px 10px;
+    background-color: white;
+    border-radius: 12px;
+}
+.insta-container>button{
+    margin: 0px 13px;
+    padding: 5px 30px;
+    background-color: rgb(0, 38, 255);
+    color: white;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 23px;
+}
+.insta-container>button>a{
+    text-decoration: none;
+    color: white;
+}
+.footer-end{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+@media only screen and (max-width: 768px){
+    .footer-logo{
+        display: none;
+    }
+    .details{
+        flex-direction: column;
+    }
+    .address{
+        width: 90vw;
+        margin: 0px 133px;
+    }
+    .insta-container{
+        margin-top: 1rem;
+    }
+    .footer-end{
+        flex-direction: column;
+    }
+}

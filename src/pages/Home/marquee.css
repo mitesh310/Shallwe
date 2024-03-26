@@ -1,0 +1,26 @@
+.marquee-slider{
+    background-color: #414934;
+    color: white;
+}
+.marquee-container{
+    display: flex;
+    width: 100%;
+}
+.marquee-ele{
+    margin:0px 133px;
+}
+.marquee {
+        display: flex;
+        overflow: hidden;
+        white-space: nowrap;
+    }
+
+    @media (max-width: 576px) {
+        .marquee {
+            font-size: 0.8em;
+            margin: 0px 3rem;
+        }
+        .marquee-ele{
+            margin:0px 33px;
+        }
+    }

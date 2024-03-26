@@ -1,0 +1,35 @@
+.shopnow-btn{
+    z-index: 999;
+    position: relative;
+    top: 60vh;
+    left: 5vw;
+
+    padding: 7px 23px;
+    border: 0px solid transparent;
+    border-radius: 23px;
+    background: white;
+    font-weight: 500;
+    transition-duration: 0.2s;
+
+}
+.shopnow-btn:hover{
+    background-color: brown;
+    color: white;
+}
+.shopnow-slider:hover{
+    background-color: whitesmoke;
+}
+#carouselExampleControls{
+    /* border: 2px solid red; */
+    margin-top: -8rem;
+}
+@media only screen and (max-width: 425px){
+    .shopnow-btn{
+        display: none;
+    }
+    #carouselExampleControls{
+        /* border: 2px solid red; */
+        margin-top: 2rem;
+        /* height: 30vh; */
+    }
+}

@@ -1,0 +1,163 @@
+
+
+
+/* new css for responsiveness */
+
+.confirm-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: unset;
+  align-items: center;
+  overflow-x: hidden;
+}
+.confirm-page>div>h2{
+  margin: 13px 24rem;
+}
+.detail-section {
+  display: flex;
+
+}
+
+.user-details {
+  margin: 1rem 1rem;
+  padding: 0px 23px;
+}
+
+.field {
+  display: flex;
+  padding: 3px 8px;
+}
+.field>p{
+  font-size: 1.2rem;
+  margin: 0px 3px;
+  font-weight: bold;
+}
+
+.checkboxes{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+
+/* css pasted from cart.css */
+
+.emptycart {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.emptycart>img {
+  height: 55vh;
+  width: 38vw;
+}
+
+.explore-btn {
+  padding: 3px 10px;
+  border: 1px solid transparent;
+  border-radius: 13px;
+  background: peachpuff;
+  transition-duration: 0.2s;
+}
+
+.placeorder-btn {
+  padding: 7px 15px;
+  margin: 0px 18rem;
+  border: 1px solid transparent;
+  border-radius: 13px;
+  background: peachpuff;
+  transition-duration: 0.2s;
+}
+
+.explore-btn:hover {
+  background: rgb(230, 195, 164);
+}
+
+.placeorder-btn:hover {
+  background: rgb(230, 195, 164);
+}
+
+.cart-items {
+  /* background-color: antiquewhite; */
+  /* border: 2px solid green; */
+  background: whitesmoke;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 13px;
+  margin: 13px;
+}
+
+.item-details {
+  /* border: 2px solid red; */
+  margin: 0rem 1rem;
+}
+
+.counter-btn {
+  background: white;
+  border: 1px solid black;
+  border-radius: 3px;
+  margin: 0px 8px;
+}
+.submit-btn{
+  cursor: pointer;
+  padding: 7px 33px;
+  margin: 13px 26rem;
+  border: 1px solid transparent;
+  border-radius: 13px;
+  border: 1px solid black;
+  background: peachpuff;
+  color: black;
+  transition-duration: 0.2s;
+}
+
+@media only screen and (max-width: 425px) {
+
+  .cart-items {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .confirm-page>div>h2{
+    margin: 3rem 10rem;
+  }
+
+  .item-details {
+    /* border: 2px solid red; */
+    margin: 0rem 0rem;
+  }
+
+  .cart-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .placeorder-btn {
+    margin: 0px 7.2rem;
+  }
+
+  /* css of allover page */
+  .detail-section {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .checkboxes{
+    align-items: center;
+    /* width: 100%; */
+  }
+  .user-details {
+    margin: 1rem 1rem;
+  }
+  .submit-btn{
+    cursor: pointer;
+    padding: 7px 43px;
+    margin: 13px 11rem;
+  }
+  
+}

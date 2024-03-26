@@ -1,0 +1,95 @@
+.eachcard>a{
+    text-decoration: none;
+    color: black;
+
+}
+.products {
+    background: rgb(231, 230, 230);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 13px 0px;
+}
+.sub-heading{
+    margin: 0px 25px;
+}
+
+.productgrid {
+    display: flex;
+    margin: 0px 3rem;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.productcard {
+    /* border:  2px solid red; */
+    border-radius: 13px;
+    width: 350px;
+    margin: 2rem 1.3rem;
+    overflow-y: visible;
+}
+
+.productimg {
+
+    border: 2px solid transparent;
+    border-radius: 7px;
+    padding: 7px;
+}
+
+.discount {
+    position: absolute;
+    top: 23px;
+    right: 7px;
+    background-color: peachpuff;
+    color: black;
+    font-weight: bolder;
+    padding: 3px 7px;
+    border-radius: 3px;
+}
+
+.ratings{
+    color: darkorange;
+    font-size: 1.2rem;
+}
+.product-details{
+    height: 5rem;
+}
+.price {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 13px 0px;
+}
+
+.card-title>svg {
+    background-color: yellow;
+}
+.buynow-btn{
+    padding: 7px 30px;
+    border: 1px solid transparent;
+    border-radius: 23px;
+    color: white;
+    background: #414934;
+    transition-duration: 0.2s;
+}
+.buynow-btn:hover{
+        background: transparent;
+        border: 1px solid black;
+        color: black;
+    
+}
+@media (max-width: 768px) {
+
+    .discount{
+        top: 23px;
+        right: 17px;
+    }
+    .productcard {
+        border-radius: 13px;
+        width: 350px;
+        margin: 7px 0rem;
+        overflow-y: visible;
+    }
+}

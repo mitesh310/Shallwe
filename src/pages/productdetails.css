@@ -1,0 +1,97 @@
+h5{
+    font-size: 35px;
+}
+p{
+    font-size: 20px;
+}
+.card{
+    border: none;
+
+}
+.card-body{
+    padding: 0px 50px;
+}
+
+.btn-counter{
+    background: rgb(199, 199, 199);
+    border: 0px solid black;
+    border-radius: 7px;
+    padding: 10px 15px;
+    font-weight: bolder;
+    transition-duration: 0.2s;
+}
+.btn-counter:hover{
+    background: rgb(158, 158, 158);
+}
+.counter{
+    border: none;
+    background: transparent;
+    width: 25px;
+}
+.buy:hover, .add:hover{
+    background: #000;
+}
+.buy, .add{
+    /* margin: 0px 10px; */
+    background: gray;
+    margin: 20px 0;
+    width: 90%;
+    padding: 10px;
+}
+
+.buy{
+    margin-left: 40px;
+}
+.buy-btn{
+    border: none;
+    background-color: #df9e78;
+    margin: 20px 0;
+    width: 90%;
+    padding: 10px;
+    border-radius: 23px;
+    transition-duration: 0.2s;
+}
+.buy-btn:hover{
+    background: none;
+    border: 1px solid black;
+}
+.add-btn{
+    border: none;
+    background: #477de2;
+    margin: 20px 0;
+    width: 90%;
+    padding: 10px;
+    border-radius: 23px;
+    transition-duration: 0.2s;
+}
+.add-btn:hover{
+    background: none;
+    border: 1px solid black;
+
+}
+
+@media only screen and (max-width: 425px) {
+    .card .card-title{
+        margin-top: 20px;
+    }
+    .card .add{
+        margin-left: 20px;
+    } 
+}
+
+
+@media only screen and (max-width: 375px){
+    .card .col-6{
+        width: 100%;
+    }
+    .card .buy{
+        margin-left: 20px;
+    }
+    .card .buy, .add{
+        margin: 10px 0;
+
+    }
+    .card .add{
+        margin-left: 0px;
+    }
+}

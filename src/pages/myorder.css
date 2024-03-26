@@ -1,0 +1,42 @@
+.myorders {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 2rem 3rem;
+}
+
+.myorders>h3 {
+    margin: 0px 33rem;
+}
+
+.ordercontainer {
+    display: flex;
+    justify-content: center;
+    align-items: unset;
+    background: whitesmoke;
+    border: 2px solid transparent;
+    border-radius: 13px;
+    margin: 13px 0px;
+    padding: 13px;
+}
+
+.ordercontainer>div {
+    margin: 0px 13px;
+}
+
+@media only screen and (max-width: 768px) {
+    .ordercontainer {
+        flex-direction: column;
+        padding: 7px;
+        align-items: center;
+    }
+
+    .myorders {
+        margin: 2rem 1rem;
+    }
+
+    .myorders>h3 {
+        margin: 0px 3rem;
+    }
+}
